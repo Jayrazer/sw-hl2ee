@@ -4,8 +4,8 @@ DEFINE_BASECLASS("simple_base")
 
 SWEP.Base = "simple_base"
 
-SWEP.PrintName = "Shotgun"
-SWEP.Category = "Simple Weapons: Half-Life 2"
+SWEP.PrintName = "Pulse Shotgun"
+SWEP.Category = "Simple Weapons: Half-Life 2 Extended"
 
 SWEP.Slot = 3
 
