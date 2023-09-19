@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Models/tnb/weapons/garand/garand_metal"
+		"$halflambert"			"1"	
+}

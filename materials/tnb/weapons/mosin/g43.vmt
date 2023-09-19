@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Models/tnb/weapons/mosin/g43"
+		"$halflambert"			"1"	
+}

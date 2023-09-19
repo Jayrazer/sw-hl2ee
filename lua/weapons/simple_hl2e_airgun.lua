@@ -2,7 +2,7 @@ AddCSLuaFile()
 
 SWEP.Base = "simple_base"
 
-SWEP.PrintName = "Airgun"
+SWEP.PrintName = "Pneumatic SMG"
 SWEP.Category = "Simple Weapons: Half-Life 2 Extended"
 
 SWEP.CSMuzzleFlashes = false
@@ -26,14 +26,14 @@ SWEP.Firemode = -1
 SWEP.Primary = {
 	Ammo = "SMG1",
 
-	ClipSize = 100,
-	DefaultClip = 200,
+	ClipSize = 75,
+	DefaultClip = 150,
 
-	Damage = 100 / 12,
+	Damage = 100 / 15,
 	Delay = 60 / 1200,
 
-	Range = 600,
-	Accuracy = 12,
+	Range = 500,
+	Accuracy = 24,
 
 	RangeModifier = 0.87,
 
@@ -44,7 +44,7 @@ SWEP.Primary = {
 		Ratio = 0.6
 	},
 
-	Sound = "weapons/overdose_shoot.wav",
+	Sound = "airgun.Single",
 	TracerName = "Tracer"
 }
 
@@ -53,5 +53,7 @@ SWEP.NPCData = {
 	Delay = SWEP.Primary.Delay,
 	Rest = {SWEP.Primary.Delay * 2, SWEP.Primary.Delay * 3}
 }
+
+SWEP.ViewOffset = Vector(-1, -1, -0.5)
 
 list.Add("NPCUsableWeapons", {class = "simple_hl2e_airgun", title = "Simple Weapons: " .. SWEP.PrintName})

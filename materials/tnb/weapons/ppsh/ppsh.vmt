@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/tnb/weapons/ppsh/ppsh"
+	"$nocull" "1" 
+	"$halflambert"			"1"			
+}

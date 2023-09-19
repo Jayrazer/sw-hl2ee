@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/tnb/weapons/pkm/dshkm_body"
+	"$halflambert"	"1"
+}
