@@ -2,7 +2,7 @@ AddCSLuaFile()
 
 SWEP.Base = "simple_base"
 
-SWEP.PrintName = "Asault Shotgun"
+SWEP.PrintName = "Assault Shotgun"
 SWEP.Category = "Simple Weapons: Half-Life 2 Extended"
 
 SWEP.CSMuzzleFlashes = false
@@ -30,7 +30,7 @@ SWEP.Primary = {
 	DefaultClip = 20,
 
 	Damage = 8,
-	Count = 8,
+	Count = 4,
 	
 	Delay = 60 / 240,
 

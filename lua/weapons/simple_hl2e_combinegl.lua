@@ -78,5 +78,6 @@ function SWEP:FireWeapon()
 
 		ent:Spawn()
 		ent:Activate()
+
 	end
 end
